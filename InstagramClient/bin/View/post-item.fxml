@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="673.0" prefWidth="488.0"
+	xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="Controller.PostItemController">
+	<children>
+		<AnchorPane layoutX="-2.0" prefHeight="69.0"
+			prefWidth="488.0" style="-fx-background-color: WHITE;">
+			<children>
+				<ImageView fx:id="avatar" fitHeight="48.0" fitWidth="44.0"
+					layoutX="29.0" layoutY="7.0" pickOnBounds="true"
+					preserveRatio="true">
+					<image>
+						<Image url="@6e70cf15912f7d4da213cddc6aedccad.jpg" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="17.0" fitWidth="24.0"
+					layoutX="441.0" layoutY="23.0" pickOnBounds="true"
+					preserveRatio="true">
+					<image>
+						<Image url="@seemore.png" />
+					</image>
+				</ImageView>
+				<Label fx:id="loader" layoutX="74.0" layoutY="26.0"
+					text="name user" />
+				<Label fx:id="date" layoutX="347.0" layoutY="23.0"
+					text="1 ngày trước" textFill="#9a9a9a" />
+			</children>
+		</AnchorPane>
+		<AnchorPane layoutY="69.0" prefHeight="299.0"
+			prefWidth="488.0" style="-fx-background-color: WHITE;">
+			<children>
+				<ImageView fx:id="imgPost" fitHeight="292.0"
+					fitWidth="251.0" layoutX="127.0" layoutY="4.0" pickOnBounds="true"
+					preserveRatio="true">
+					<image>
+						<Image url="@6e70cf15912f7d4da213cddc6aedccad.jpg" />
+					</image>
+				</ImageView>
+			</children>
+		</AnchorPane>
+		<AnchorPane layoutY="368.0" prefHeight="306.0"
+			prefWidth="488.0" style="-fx-background-color: WHITE;">
+			<children>
+				<ImageView fx:id="tymBtn" fitHeight="21.0" fitWidth="20.0"
+					layoutX="26.0" layoutY="9.0" pickOnBounds="true"
+					preserveRatio="true">
+					<image>
+						<Image url="@heart-empty.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="commentBtn" fitHeight="21.0"
+					fitWidth="20.0" layoutX="64.0" layoutY="10.0" pickOnBounds="true"
+					preserveRatio="true" rotate="-94.8">
+					<image>
+						<Image url="@comment.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="shareBtn" fitHeight="29.0"
+					fitWidth="26.0" layoutX="99.0" layoutY="6.0" pickOnBounds="true"
+					preserveRatio="true" rotate="3.9">
+					<image>
+						<Image url="@message.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="20.0" fitWidth="20.0"
+					layoutX="436.0" layoutY="9.0" pickOnBounds="true"
+					preserveRatio="true">
+					<image>
+						<Image url="@bookmark.png" />
+					</image>
+				</ImageView>
+				<Text layoutX="25.0" layoutY="79.0" strokeType="OUTSIDE"
+					strokeWidth="0.0" text="nameuser">
+					<font>
+						<Font name="System Bold" size="14.0" />
+					</font>
+				</Text>
+				<Text fx:id="contents" layoutX="107.0" layoutY="79.0"
+					strokeType="OUTSIDE" strokeWidth="0.0"
+					text="In the iconic Nave of the Grand Palais in Paris, a woman strides with confidence, setting the tone of the CHANEL.."
+					wrappingWidth="338.13671875" />
+				<TextField layoutX="24.0" layoutY="133.0"
+					prefHeight="25.0" prefWidth="385.0" promptText="Thêm bình luận..."
+					style="-fx-background-color: WHITE;" />
+				<Label fx:id="countLike" layoutX="24.0" layoutY="39.0"
+					text="8 lượt thích">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+				</Label>
+			</children>
+		</AnchorPane>
+	</children>
+</AnchorPane>

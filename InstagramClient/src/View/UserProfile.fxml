@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1032.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.UserProfileController">
+   <children>
+      <AnchorPane layoutX="8.0" prefHeight="737.0" prefWidth="98.0" style="-fx-border-width: 0px 1px 0px 0px; -fx-border-color: lightgrey;">
+         <children>
+            <Button layoutX="24.0" layoutY="59.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="43.0">
+               <styleClass>
+                  <String fx:value="format-btn" />
+                  <String fx:value="home-btn" />
+               </styleClass>
+            </Button>
+            <ImageView fitHeight="24.0" fitWidth="33.0" layoutX="33.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" styleClass="home-icon">
+               <image>
+                  <Image url="@transparent-house-icon-5.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="24.0" layoutY="134.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="43.0" stylesheets="@Style.css">
+               <styleClass>
+                  <String fx:value="format-btn" />
+                  <String fx:value="home-btn" />
+               </styleClass>
+            </Button>
+            <Button layoutX="24.0" layoutY="200.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="43.0" stylesheets="@Style.css">
+               <styleClass>
+                  <String fx:value="format-btn" />
+                  <String fx:value="home-btn" />
+               </styleClass>
+            </Button>
+            <Button layoutX="24.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="43.0" stylesheets="@Style.css">
+               <styleClass>
+                  <String fx:value="format-btn" />
+                  <String fx:value="home-btn" />
+               </styleClass>
+            </Button>
+            <Button layoutX="23.0" layoutY="336.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="43.0" stylesheets="@Style.css">
+               <styleClass>
+                  <String fx:value="format-btn" />
+                  <String fx:value="home-btn" />
+               </styleClass>
+            </Button>
+            <Button layoutX="24.0" layoutY="735.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="43.0" stylesheets="@Style.css">
+               <styleClass>
+                  <String fx:value="format-btn" />
+                  <String fx:value="home-btn" />
+               </styleClass>
+            </Button>
+            <Button layoutX="23.0" layoutY="402.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="43.0" stylesheets="@Style.css">
+               <styleClass>
+                  <String fx:value="format-btn" />
+                  <String fx:value="home-btn" />
+               </styleClass>
+            </Button>
+            <Button layoutX="23.0" layoutY="677.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="43.0" stylesheets="@Style.css">
+               <styleClass>
+                  <String fx:value="format-btn" />
+                  <String fx:value="home-btn" />
+               </styleClass>
+            </Button>
+            <Button layoutX="23.0" layoutY="466.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="43.0" stylesheets="@Style.css">
+               <styleClass>
+                  <String fx:value="format-btn" />
+                  <String fx:value="home-btn" />
+               </styleClass>
+            </Button>
+            <Button layoutX="23.0" layoutY="534.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="43.0" stylesheets="@Style.css">
+               <styleClass>
+                  <String fx:value="format-btn" />
+                  <String fx:value="home-btn" />
+               </styleClass>
+            </Button>
+            <ImageView fx:id="avt" fitHeight="24.0" fitWidth="27.0" layoutX="32.0" layoutY="544.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@R.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="33.0" layoutX="33.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" styleClass="home-icon">
+               <image>
+                  <Image url="@search-icon-white-png-19.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="33.0" layoutX="33.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" styleClass="home-icon">
+               <image>
+                  <Image url="@message.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="33.0" layoutX="33.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true" styleClass="home-icon">
+               <image>
+                  <Image url="@reels.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="33.0" layoutX="33.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true" styleClass="home-icon">
+               <image>
+                  <Image url="@image_processing20210627-9645-1umfke7.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="33.0" layoutX="33.0" layoutY="411.0" pickOnBounds="true" preserveRatio="true" styleClass="home-icon">
+               <image>
+                  <Image url="@heart.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="21.0" layoutX="33.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true" styleClass="home-icon">
+               <image>
+                  <Image url="@create.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="33.0" layoutX="32.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true" styleClass="home-icon">
+               <image>
+                  <Image url="@help.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="33.0" layoutX="32.0" layoutY="744.0" pickOnBounds="true" preserveRatio="true" styleClass="home-icon">
+               <image>
+                  <Image url="@view-more-icon-16.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="avt" fitHeight="239.0" fitWidth="254.0" layoutX="132.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@R.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="usernameProfile" layoutX="448.0" layoutY="74.0" prefHeight="31.0" prefWidth="304.0" text="locdv.209 " wrapText="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="customize_btn" layoutX="792.0" layoutY="76.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="134.0" styleClass="customize_btn" stylesheets="@Style.css" text="Following ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="437.0" layoutY="135.0" prefHeight="58.0" prefWidth="134.0" style="-fx-background-color: WHITE;">
+         <children>
+            <Label fx:id="numPost" layoutX="14.0" layoutY="13.0" prefHeight="31.0" prefWidth="43.0" text="10 ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="14.0" prefHeight="30.0" prefWidth="54.0" text="Post ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="593.0" layoutY="135.0" prefHeight="58.0" prefWidth="199.0" style="-fx-background-color: WHITE;">
+         <children>
+            <Label fx:id="numFollower" layoutX="14.0" layoutY="13.0" prefHeight="31.0" prefWidth="43.0" text="114 ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="14.0" prefHeight="30.0" prefWidth="134.0" text="Follower  ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="794.0" layoutY="135.0" prefHeight="58.0" prefWidth="134.0" style="-fx-background-color: WHITE;">
+         <children>
+            <Label fx:id="numFollowing" layoutX="14.0" layoutY="13.0" prefHeight="31.0" prefWidth="43.0" text="114 ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="14.0" prefHeight="30.0" prefWidth="134.0" text="Following   ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="nicknameProfile" layoutX="448.0" layoutY="209.0" prefHeight="24.0" prefWidth="298.0" text="Viết Lộc ">
+         <font>
+            <Font name="Arial Unicode MS" size="17.0" />
+         </font>
+      </Label>
+      <Line endX="777.0" layoutX="231.0" layoutY="355.0" startX="-100.0" stroke="#dfdfdf" />
+      <Label layoutX="486.0" layoutY="364.0" text="POSTS  " wrapText="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="15.0" fitWidth="21.0" layoutX="455.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@create.png" />
+         </image>
+      </ImageView>
+      <Line endX="61.20001220703125" layoutX="470.0" layoutY="355.0" startX="-15.5999755859375" stroke="#515151" />
+      <GridPane layoutX="186.0" layoutY="425.0" prefHeight="1.0" prefWidth="1.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <ImageView fitHeight="203.0" fitWidth="166.0" layoutX="423.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@6e70cf15912f7d4da213cddc6aedccad.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="203.0" fitWidth="166.0" layoutX="251.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@07c4707e01672fd4980dde5f60b2754b.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="203.0" fitWidth="166.0" layoutX="597.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@6e70cf15912f7d4da213cddc6aedccad.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="203.0" fitWidth="166.0" layoutX="770.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@6e70cf15912f7d4da213cddc6aedccad.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

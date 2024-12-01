@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="respondent_side_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="58.0" prefWidth="695.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="message_of_respondent" layoutX="14.0" layoutY="9.0" prefHeight="40.0" prefWidth="310.0" styleClass="message_of_respondent" stylesheets="@Style.css" text="      This is message of respondent" />
+      <Label fx:id="response_time" layoutX="332.0" layoutY="21.0" text="29/10/24 14:03" textFill="#565656">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

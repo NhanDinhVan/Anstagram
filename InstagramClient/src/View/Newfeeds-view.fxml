@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?> -->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="809.0" prefWidth="1455.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.NewfeedsController">
+	<children>
+		<AnchorPane layoutX="-1.0" prefHeight="809.0" prefWidth="255.0" style="-fx-border-width: 0px 1px 0px 0px; -fx-border-color: LIGHTGREY;" stylesheets="@Style.css">
+			<children>
+				<Text layoutX="75.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instagram">
+					<font>
+						<Font name="Script MT Bold" size="29.0" />
+					</font>
+				</Text>
+				<Button fx:id="trangchu_btn" layoutX="8.0" layoutY="90.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="239.0" styleClass="format-btn" text="Trang chủ" />
+				<Button fx:id="search_btn" layoutX="8.0" layoutY="148.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="239.0" styleClass="format-btn" text="Tìm kiếm" />
+				<Button fx:id="explore_btn" layoutX="8.0" layoutY="206.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="239.0" styleClass="format-btn" text="Khám phá" />
+				<Button fx:id="reels_btn" layoutX="8.0" layoutY="266.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="239.0" styleClass="format-btn" text="Reels" />
+				<Button fx:id="message_btn" layoutX="8.0" layoutY="323.0" mnemonicParsing="false"  prefHeight="58.0" prefWidth="239.0" styleClass="format-btn" text="Tin nhắn" />
+				<Button fx:id="notify_btn" layoutX="8.0" layoutY="381.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="239.0" styleClass="format-btn" text="Thông báo" />
+				<Button fx:id="create_btn" layoutX="8.0" layoutY="438.0" mnemonicParsing="false"  prefHeight="58.0" prefWidth="239.0" styleClass="format-btn" text="Tạo" />
+				<Button fx:id="personal_btn" layoutX="8.0" layoutY="496.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="239.0" styleClass="format-btn" text="Trang cá nhân" />
+				<Button fx:id="help_btn" layoutX="8.0" layoutY="659.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="239.0" styleClass="format-btn" text="Trợ giúp" />
+				<Button fx:id="viewmore_btn" layoutX="8.0" layoutY="717.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="239.0" styleClass="format-btn" text="Xem thêm" />
+
+				<ImageView fitHeight="28.0" fitWidth="28.0" layoutX="47.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@R.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="28.0" fitWidth="28.0" layoutX="49.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@transparent-house-icon-5.jpg" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="28.0" fitWidth="28.0" layoutX="48.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@search-icon-white-png-19.jpg" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="28.0" fitWidth="28.0" layoutX="48.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@image_processing20210627-9645-1umfke7.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="28.0" fitWidth="28.0" layoutX="48.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@reels.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="35.0" fitWidth="40.0" layoutX="45.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@message.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="28.0" fitWidth="36.0" layoutX="48.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@heart.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="28.0" fitWidth="22.0" layoutX="51.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@create.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="28.0" fitWidth="22.0" layoutX="51.0" layoutY="677.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@help.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="28.0" fitWidth="22.0" layoutX="51.0" layoutY="735.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@view-more-icon-16.jpg" />
+					</image>
+				</ImageView>
+			</children>
+		</AnchorPane>
+		<AnchorPane layoutX="254.0" layoutY="2.0" prefHeight="809.0" prefWidth="1201.0">
+			<children>
+				<ScrollPane fx:id="scroll" layoutY="-3.0" prefHeight="811.0" prefWidth="867.0">
+					<content>
+						<GridPane fx:id="gridPane" prefHeight="3.0" prefWidth="783.0">
+							<columnConstraints>
+								<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+							</columnConstraints>
+						</GridPane>
+					</content>
+				</ScrollPane>
+				<AnchorPane fx:id="followerPane" layoutX="872.0" layoutY="-1.0" prefHeight="810.0" prefWidth="330.0">
+					<children>
+						<VBox fx:id="vbox" layoutX="1.0" layoutY="-2.0" prefHeight="810.0" prefWidth="330.0" />
+					</children>
+				</AnchorPane>
+			</children>
+		</AnchorPane>
+	</children>
+</AnchorPane>

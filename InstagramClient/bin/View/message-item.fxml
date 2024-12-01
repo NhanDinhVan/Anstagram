@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="chatter_item" onMouseClicked="#detailConversation" prefHeight="73.0" prefWidth="313.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MessageItemController">
+	<children>
+		<ImageView fx:id="avtPartner" fitHeight="54.0" fitWidth="51.0" layoutX="6.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@6e70cf15912f7d4da213cddc6aedccad.jpg" />
+			</image>
+		</ImageView>
+		<Label fx:id="namePartner" layoutX="58.0" layoutY="14.0" prefHeight="14.0" prefWidth="67.0" text="Tú Ngọc">
+			<font>
+				<Font name="Times New Roman Bold" size="14.0" />
+			</font>
+		</Label>
+		<Label fx:id="contentMessage" layoutX="58.0" layoutY="37.0" prefHeight="17.0" prefWidth="202.0" text="This message ...." textFill="#6f6f6f" />
+		<Label fx:id="timeChat" layoutX="268.0" layoutY="37.0" prefHeight="17.0" prefWidth="43.0" text="4h ago" textFill="#8a8a8a" />
+	</children>
+</AnchorPane>

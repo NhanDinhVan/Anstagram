@@ -1,0 +1,22 @@
+.format-btn:hover {
+    -fx-background-color: LIGHTGREY;
+}
+
+
+.format-btn {
+    -fx-background-color: WHITE;
+    -fx-cursor: hand;
+}
+
+.home-btn:hover{
+    -fx-border-radius: 50.0px;
+}
+
+.message_of_sender{
+	-fx-background-color: #36c9ff;
+	-fx-background-radius: 15.0px;	
+}
+.message_of_respondent{
+	-fx-background-color: #cfcfcf;
+	-fx-background-radius: 15.0px;
+}

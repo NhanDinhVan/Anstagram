@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?> -->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane opacity="0.83" prefHeight="506.0" prefWidth="756.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SignupController">
+	<children>
+		<Text layoutX="430.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instagram" wrappingWidth="241.0">
+			<font>
+				<Font name="Script MT Bold" size="52.0" />
+			</font>
+		</Text>
+		<TextField fx:id="email_phone_field" layoutX="396.0" layoutY="144.0" prefHeight="43.0" prefWidth="300.0" promptText="Enter your email, phone " style="-fx-background-color: transparent; -fx-border-width: 0px 0px 1px 0px; -fx-border-color: #000000;" />
+		<!-- <FontAwesomeIcon fill="#ffb8d3" glyphName="USER" layoutX="527.0" layoutY="246.0" 
+			wrappingWidth="9.428571701049805" /> -->
+		<TextField fx:id="username_field" layoutX="396.0" layoutY="209.0" prefHeight="43.0" prefWidth="300.0" promptText="Enter user name " style="-fx-background-color: transparent; -fx-border-width: 0px 0px 1px 0px; -fx-border-color: #000000;" />
+		<!-- <FontAwesomeIcon fill="#ffdddd" glyphName="AT" layoutX="526.0" layoutY="182.0" 
+			/> -->
+		<PasswordField fx:id="password_field" layoutX="395.0" layoutY="274.0" prefHeight="43.0" prefWidth="300.0" promptText="Create your password" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 1px 0px; -fx-border-color: #000000;" />
+		<!-- <FontAwesomeIcon fill="#ffb7ce" glyphName="EYE" layoutX="525.0" layoutY="317.0" 
+			/> -->
+		<PasswordField fx:id="confirm_password_field" layoutX="395.0" layoutY="344.0" prefHeight="43.0" prefWidth="300.0" promptText="Confirm your password" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 1px 0px; -fx-border-color: #000000;" />
+		<!-- <FontAwesomeIcon fill="#ffb7ce" glyphName="EYE" layoutX="525.0" layoutY="377.0" 
+			/> -->
+		<Button fx:id="submit_signup_btn" layoutX="452.0" layoutY="409.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="177.0" style="-fx-background-color: linear-gradient(to left top,#2979FF,#2196F3); -fx-background-radius: 5px;" text="Create account" textFill="WHITE">
+			<font>
+				<Font size="13.0" />
+			</font>
+		</Button>
+		<Text layoutX="498.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
+			<font>
+				<Font name="Script MT Bold" size="24.0" />
+			</font>
+		</Text>
+      <Button fx:id="have_accountl_btn" layoutX="462.0" layoutY="457.0" mnemonicParsing="false" styleClass="have_an_account_btn" stylesheets="@Style.css" text="Do you have an account ? " underline="true" />
+      <ImageView fitHeight="520.0" fitWidth="389.0" layoutX="-27.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@probar-thins-stylhaus-social.gif" />
+         </image>
+      </ImageView>
+		<!-- <FontAwesomeIcon fill="#e4e4e4" glyphName="INSTAGRAM" layoutX="82.0" 
+			layoutY="117.0" opacity="0.22" size="10em" wrappingWidth="12.0" /> -->
+	</children>
+</AnchorPane>
